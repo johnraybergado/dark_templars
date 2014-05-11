@@ -24,15 +24,19 @@ h1.site-name a.active {
 	font-size: 30pt;
 }
 
-a href{
+a [href="/?q=map-anon"]{
 font-family:Verdana;
 font-size:20pt;
 color:#F0BD1B;
+text-effects:none;
 }
 
 article#node-page-2 a {
-	font-size: 300%;
-	padding: 100px;
+	text-decoration: none;
+	margin: 100px;
+	font-family:Verdana;
+	font-size:20pt;
+	color:#222;
 }
 
 article#node-page-2 {
