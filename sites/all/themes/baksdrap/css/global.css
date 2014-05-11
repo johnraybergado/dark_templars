@@ -33,7 +33,7 @@ text-effects:none;
 
 article#node-page-2 a {
 	text-decoration: none;
-	margin: 100px;
+	margin: 10%;
 	font-family:Verdana;
 	font-size:20pt;
 	color:#222;
@@ -41,4 +41,8 @@ article#node-page-2 a {
 
 article#node-page-2 {
 	text-align: center !important;
+}
+
+img#logo {
+	width: 100%;
 }
