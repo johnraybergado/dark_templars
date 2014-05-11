@@ -1,0 +1,44 @@
+name = OpenLayers Locator
+description = Provides a location content type that geocodes address information and creates a map that allows users to do proximity searches.
+core = 7.x
+package = Features
+php = 5.2.4
+version = 7.x-1.x-dev
+project = ol_locator
+dependencies[] = addressfield
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = geocoder
+dependencies[] = geofield
+dependencies[] = geofield_map
+dependencies[] = libraries
+dependencies[] = openlayers
+dependencies[] = openlayers_views
+dependencies[] = proj4js
+dependencies[] = text
+dependencies[] = views
+datestamp = 1339245070
+features[ctools][] = openlayers:openlayers_maps:1
+features[ctools][] = openlayers:openlayers_styles:1
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:1
+features[field_base][] = body
+features[field_base][] = field_ol_locator_address
+features[field_base][] = field_ol_locator_geofield
+features[field_instance][] = node-ol_locator_location-body
+features[field_instance][] = node-ol_locator_location-field_ol_locator_address
+features[field_instance][] = node-ol_locator_location-field_ol_locator_geofield
+features[node][] = ol_locator_location
+features[openlayers_maps][] = ol_locator_node_map
+features[openlayers_maps][] = ol_locator_proximity_search_map
+features[views_view][] = ol_locator_proximity_search
+features_exclude[field][node-ol_locator_location-body] = node-ol_locator_location-body
+features_exclude[field][node-ol_locator_location-field_ol_locator_address] = node-ol_locator_location-field_ol_locator_address
+features_exclude[field][node-ol_locator_location-field_ol_locator_geofield] = node-ol_locator_location-field_ol_locator_geofield
+
+; Information added by drupal.org packaging script on 2013-10-01
+version = "7.x-2.x-dev"
+core = "7.x"
+project = "ol_locator"
+datestamp = "1380595887"
+

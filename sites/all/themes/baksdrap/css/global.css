@@ -1,0 +1,29 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+body{
+background-color:#76B616;
+}
+
+#zone-branding-wrapper{
+background-color:#493829;
+}
+
+#page-title {
+	display: none;
+	visibility: none;
+}
+
+h1, h2,
+h1.site-name a.active {
+	color: #FBB6A4 !important;
+}
+
+article#node-page-2 a {
+	font-size: 300%;
+	padding: 100px;
+}
+
+article#node-page-2 {
+	text-align: center !important;
+}
