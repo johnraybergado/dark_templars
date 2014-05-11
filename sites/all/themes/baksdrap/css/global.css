@@ -21,6 +21,13 @@ background-color:#493829;
 h1, h2,
 h1.site-name a.active {
 	color: #1a1a1a !important;
+	font-size: 30pt;
+}
+
+a href{
+font-family:Verdana;
+font-size:20pt;
+color:#F0BD1B;
 }
 
 article#node-page-2 a {
