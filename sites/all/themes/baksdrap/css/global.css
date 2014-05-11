@@ -2,7 +2,10 @@
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
 body{
-background-color:#76B616;
+background-color:#9BF01B;
+font-family:"Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+font-size:14pt;
+
 }
 
 #zone-branding-wrapper{
@@ -21,9 +24,15 @@ h1.site-name a.active {
 
 article#node-page-2 a {
 	font-size: 300%;
-	padding: 100px;
+	margin: 100px;
 }
 
 article#node-page-2 {
 	text-align: center !important;
+}
+
+a[href="/?q=map-anon"],
+a[href="/?q=user"],
+h2 {
+	color: #222 !important;
 }
